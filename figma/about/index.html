@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first</title>
+    <style>
+        body {
+            font-family: Inter, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #000000;
+        }
+        .navigation, .footer {
+            background-color: #FFFFFF;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .nav-items, .footer-items {
+            display: flex;
+            gap: 48px;
+        }
+        .button {
+            background-color: #000000;
+            color: #FFFFFF;
+            border-radius: 8px;
+            padding: 14px 24px;
+            box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+            cursor: pointer;
+        }
+        .about-section {
+            display: flex;
+            gap: 24px;
+            padding: 20px;
+        }
+        .image-frame {
+            background-color: #F7F7F7;
+            border-radius: 8px;
+        }
+        .form-section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 32px;
+            width: 626px;
+            margin: 20px auto;
+        }
+        .input-field {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        .field {
+            background-color: #FFFFFF;
+            border: 1px solid #E0E0E0;
+            border-radius: 8px;
+            padding: 12px 16px;
+            box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+        }
+        .social-icons {
+            display: flex;
+            gap: 8px;
+        }
+        .social-icon {
+            border-radius: 4px;
+        }
+        @media (max-width: 768px) {
+            .nav-items, .footer-items {
+                flex-direction: column;
+                gap: 10px;
+            }
+            .about-section {
+                flex-direction: column;
+            }
+            .form-section {
+                width: 100%;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="navigation">
+        <span class="site-name">Site name</span>
+        <div class="nav-items">
+            <span>Page</span>
+            <span>Page</span>
+            <span>Page</span>
+            <div class="button">Button</div>
+        </div>
+    </div>
+    <div class="about-section">
+        <div class="image-frame"></div>
+        <div class="copy">
+            <h1>About</h1>
+            <h2>Subheading for description or instructions</h2>
+            <p>Body text for your whole article or post. We’ll put in some lorem
+            ipsum to show how a filled-out page might look:
+
+            Excepteur efficient emerging, minim veniam anim aute carefully
+            curated Ginza conversation exquisite perfect nostrud nisi
+            intricate Content. Qui  international first-class nulla ut.
+            Punctual adipisicing, essential lovely queen tempor eiusmod irure.
+            Exclusive izakaya charming Scandinavian impeccable aute quality of
+            life soft power pariatur Melbourne occaecat discerning. Qui
+            wardrobe aliquip, et Porter destination Toto remarkable officia
+            Helsinki excepteur Basset hound. Zürich sleepy perfect
+            consectetur.</p>
+        </div>
+    </div>
+    <div class="form-section">
+        <h1>Contact me</h1>
+        <div class="input-field">
+            <label>First name</label>
+            <div class="field">Jane</div>
+        </div>
+        <div class="input-field">
+            <label>Last name</label>
+            <div class="field">Smitherton</div>
+        </div>
+        <div class="input-field">
+            <label>Email address</label>
+            <div class="field">email@janesfakedomain.net</div>
+        </div>
+        <div class="input-field">
+            <label>Your message</label>
+            <div class="field">Enter your question or message</div>
+        </div>
+        <div class="button">Submit</div>
+    </div>
+    <div class="footer">
+        <div class="footer-items">
+            <div>
+                <h3>Topic</h3>
+                <span>Page</span>
+                <span>Page</span>
+                <span>Page</span>
+            </div>
+            <div>
+                <h3>Topic</h3>
+                <span>Page</span>
+                <span>Page</span>
+                <span>Page</span>
+            </div>
+            <div>
+                <h3>Topic</h3>
+                <span>Page</span>
+                <span>Page</span>
+                <span>Page</span>
+            </div>
+        </div>
+        <div class="social-icons">
+            <img src="images/facebook.svg" alt="Facebook" class="social-icon">
+            <img src="images/linkedin.svg" alt="LinkedIn" class="social-icon">
+            <img src="images/youtube.svg" alt="YouTube" class="social-icon">
+            <img src="images/instagram.svg" alt="Instagram" class="social-icon">
+        </div>
+    </div>
+</body>
+</html>
